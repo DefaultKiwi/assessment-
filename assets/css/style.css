@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;800;900&display=swap');
+
+/*--------------------------------------------------HEADER*/
+header {
+    background-color: rgb(128,128,128);
+}
+.header-text {
+   font-family: "Roboto", sans-serif; 
+   font-size: large;
+   font-weight: 500;
+}
+.web-name{
+    font-family: "Robot", sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+
+/*--------------------------------------------------Body*/
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/*--------------------------------------------------Hero Image*/
+
+
+.hero-image{
+    background: url("../images/gym2.jpg");
+min-height: 1400px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.hero-text{
+    font-family: "Roboto", sans-serif;
+    position: absolute;top: 500px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    font-size: large;
+    font-weight: 300;
+    font-style: italic;
+
+
+}
+
+.hero-text h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #fafafa;
+    font-weight: 800;
+}
+
+.hero-text p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+/*--------------------------------------------------Main Text*/
+
+.main-info{
+    position: absolute; top: 1000px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-info h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 20px;
+}
+.main-text{
+    padding:15px;
+}
+
+
+.main-info p{
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/*--------------------------------------------------Colours/Texts*/
+.uppercase  {
+    text-transform: uppercase;
+}
+.white-text{
+    color: #fafafa;
+}
+
+.blue-text {
+    color:#AFEEEE;}
+
+.grey-background-box{
+    background:	rgb(128,128,128,0.8);
+
+}
+    /*--------------------------------------------------Footer*/
+
+footer{
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    color: #fafafa;
+    background-color:rgb(128,128,128);
+}
+.social-links{
+    padding-bottom: 15px;
+}
+.social-links {
+    padding: 20px 0px;
+}
+.social-links li a i {
+width: 64px;
+height: 64px;
+padding: 12px 0;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+color:#fafafa ;
+background: #333;
+border-radius: 50%;
+transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+-webkit-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;
+
+
+}
+
+#footer-details{
+    padding-top: 30px;
+}
+
+div h4, p{
+    font-family: "Roboto", sans-serif;
+}
+
+div p{
+    font-weight: 500;
+  font-size: large;
+  font-style: italic;
+
+}
+div h4{
+ font-weight: 900;
+ letter-spacing: 2px;
+ 
+}
