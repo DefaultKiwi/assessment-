@@ -33,38 +33,27 @@
           </nav>
           </header>
             <!--/Header -->
-  <!--Hero Image -->
-
-    <section class="hero-image">
-        <div class="hero-text grey-background-box">
-          <h1>Welcome to FitFusion</h1>
-          <hr>
-          <p>We provide top-notch fitness facilities and personalized training programs to help you reach your fitness goals.</p>
-        </div>
-          <!--/Hero Image -->
-  <!--Main Text -->
-
-        <div class="white-text main-info container">
-          <div class="row">
-              <div class="col-md-4 grey-background-box main-text">
-                <h2 class="uppercase cardio">Cardio</h2>
-                <hr>
-                <p>We have a wide range of cardio equipment including treadmills, stationary bikes, and ellipticals to help you burn calories and improve your cardiovascular health.</p>
-              </div>
-              <div class="col-md-4 grey-background-box main-text">
-                <h2>Strength Training</h2>
-                <hr>
-                <p>Our gym is equipped with the latest strength training equipment including free weights, resistance machines, and cable machines to help you build muscle and increase your strength.</p>
-              </div>
-              <div class="col-md-4 grey-background-box main-text">
-                <h2>Personal Training</h2>
-                <hr>
-                <p>We offer personalized training programs with certified personal trainers to help you achieve your fitness goals and get the most out of your workouts.</p>
-              </div>
+            <section class="hero-image">
+              <div class="hero-text grey-background-box">
+            <div class="container">
+              <h1>Contact Us</h1>
+              <form id="contact-form" action="submit_form.php" method="POST">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+              </form>
             </div>
-        </div>
-    </section>
-      <!--/Main Text -->
+          </section>
   <!--Footer -->
 
     <footer>
